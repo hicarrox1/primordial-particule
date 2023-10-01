@@ -1,4 +1,8 @@
+orientation = 200
 
-for i in range(1,8):
+delta_phi = 200
 
-    print(i)
+orientation = (orientation + delta_phi)%360
+
+
+print(400-360)
